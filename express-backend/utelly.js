@@ -1,8 +1,8 @@
 const Unirest = require("unirest");
-const UserInfo = require("api-keys");
+const userInfo = require("./api-keys");
 
-const UserKey = UserInfo.utellyUser;
-const QueryHost = UserInfo.utellyHost;
+const UserKey = userInfo.utellyUser();
+const QueryHost = userInfo.utellyHost();
 
 const Headers = {
   "x-rapidapi-key": UserKey,
