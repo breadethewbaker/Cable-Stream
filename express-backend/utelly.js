@@ -1,8 +1,8 @@
 const Unirest = require("unirest");
 const UserInfo = require("api-keys");
 
-const UserKey = UserInfo.utellyUser;//"dd38b3805emsh6fb33eb46bff8e9p158269jsn55cc47c5fe2f";
-const QueryHost = UserInfo.utellyHost;//"utelly-tv-shows-and-movies-availability-v1.p.rapidapi.com";
+const UserKey = UserInfo.utellyUser;
+const QueryHost = UserInfo.utellyHost;
 
 const Headers = {
   "x-rapidapi-key": UserKey,
